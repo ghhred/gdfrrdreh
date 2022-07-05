@@ -1,0 +1,30 @@
+{
+  "name": "hufvhge",
+  "description": "i tell you",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "e3be5e68-43bf-484b-88f2-8a78d48a673d",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/ghhred/gdfrrdreh",
+  "repository": "https://github.com/ghhred/gdfrrdreh",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
